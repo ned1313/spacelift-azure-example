@@ -19,7 +19,7 @@ locals {
   base_name = "${var.prefix}web"
   change    = "trigger-08012023"
   common_tags = {
-    #environment = var.prefix
+    environment = var.prefix
     owner       = "clippy"
   }
 }
